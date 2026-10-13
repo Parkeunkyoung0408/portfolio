@@ -1,2 +1,34 @@
-명함페이지추가
-소개문구변경
+1. 폴더를 Git 저장소로 만들기
+git init
+
+2. 파일을 스테이지에 올리기
+git add day07-card/index.html day07-card/style.css
+
+3. 스테이징한 내용을 커밋으로 기록하기
+git commit -m "명함페이지추가"
+
+4. 소개 문구를 수정하고 저장한 뒤 기록하기
+git add day07-card/index.html
+git commit -m "소개문구변경"
+
+5. 원격 저장소 연결하기 (최초 한 번)
+git remote add origin https://github.com/Parkeunkyoung0408/portfolio.git
+
+6. GitHub에 업로드하기
+git push -u origin main
+
+7. 이후 커밋 업로드하기
+git push
+
+8. 작업 상태 확인하기
+git status
+
+9. 커밋 이력 확인하기
+git log --oneline
+
+10. GitHub Pages 설정
+portfolio 저장소 → Settings → Pages
+Source: Deploy from a branch
+Branch: main
+Folder: / (root)
+Save
