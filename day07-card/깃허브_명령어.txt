@@ -26,9 +26,3 @@ git status
 9. 커밋 이력 확인하기
 git log --oneline
 
-10. GitHub Pages 설정
-portfolio 저장소 → Settings → Pages
-Source: Deploy from a branch
-Branch: main
-Folder: / (root)
-Save
